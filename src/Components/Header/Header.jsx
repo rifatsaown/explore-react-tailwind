@@ -28,7 +28,7 @@ export default function Header() {
         }`}
       >
         {routes.map((route) => (
-          <Navbar key={route.id} route={route} />
+          <Navbar key={route.id} route={route}/>
         ))}
       </ul>
     </nav>
