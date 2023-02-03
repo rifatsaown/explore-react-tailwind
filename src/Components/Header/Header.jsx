@@ -24,7 +24,7 @@ export default function Header() {
 
       <ul
         className={`bg-purple-200 rounded-3xl px-16 pb-3 md:w-full md:flex justify-center absolute duration-300 ease-in md:static ${
-          isOpen ? "top-10" : "top-[-200px]"
+          isOpen ? "top-10" : "top-[-300px]"
         }`}
       >
         {routes.map((route) => (
