@@ -42,10 +42,10 @@ const Pricing = () => {
   ];
   return (
     <div>
-      <h1 className="text-5xl font-semibold bg-purple-400 p-4 pb-5">
+      <h1 className="text-5xl font-semibold bg-purple-400 p-4 mb-6">
         Best Price in city
       </h1>
-      <div className="grid grid-cols-3 gap-4 m-10">
+      <div className="grid md:grid-cols-3 gap-4 md:m-10">
         {pricingList.map((option) => (
           <PricingOption key={option.id} option={option} />
         ))}
