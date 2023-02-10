@@ -3,7 +3,7 @@ import React from 'react';
 const Chart = () => {
     return (
         <div>
-            <h1>chart</h1>
+            <h1>chart Js Implement with phone</h1>
         </div>
     );
 };
